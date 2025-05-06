@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="TalkOn"
+              description="TalkOn is a real-time personal chat room and collaborative workspace built using React.js, Material-UI, and Firebase. Designed for seamless and fun communication with friends, it supports real-time messaging, image sharing, and emoji reactions - creating an engaging, modern chat experience."
+              ghLink="https://github.com/jaimishsatani/TalkOn"
             />
           </Col>
 
@@ -36,10 +35,12 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="TrendKart"
+              description="TrendKart is a modern e-commerce web app with real-time product browsing, user authentication, and a responsive shopping interface.
+It allows users to explore products, manage their cart, and proceed to a smooth checkout flow.
+Built with React.js, Material-UI, and Firebase for seamless UI, real-time data, and secure auth."
+              ghLink="https://github.com/jaimishsatani/TrendKart"
+            
             />
           </Col>
 
@@ -47,10 +48,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Intellistock"
+              description="IntelliStock is a Streamlit-based smart inventory system that forecasts product demand, detects stockout risks, and suggests dynamic pricing.
+It evaluates supplier performance, analyzes customer sentiment in real-time, and generates professional PDF inventory reports.
+Powered by scikit-learn, Plotly, and TextBlob, it delivers actionable insights through an interactive dashboard."
+              ghLink="https://github.com/jaimishsatani/intellistock"              
             />
           </Col>
 
@@ -58,10 +60,11 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="AI-Powered Job-Portal"
+              description="AI-Powered Job Portal is a full-stack MERN web app that uses AI and NLP to parse resumes and recommend jobs tailored to users’ skills and experience.
+It features secure authentication, role-based dashboards for job seekers and recruiters, job posting, applications, and real-time notifications.
+With advanced AI-driven search and filters, it streamlines the job search and hiring process for both users and employers."
+              ghLink="https://github.com/jaimishsatani/AI-Powered-Job-Portal"
             />
           </Col>
 
@@ -69,10 +72,11 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Scalable-URL-Shortener-with-Caching-Analytics"
+              description="Scalable URL Shortener is a MERN-based application that shortens long URLs and delivers lightning-fast redirection using Redis caching and MongoDB indexing.
+It tracks analytics like clicks, referrers, and user locations while supporting secure JWT authentication and rate limiting to prevent abuse.
+Custom link expiration, performance optimization, and real-time tracking make it ideal for high-traffic use cases."
+              ghLink="https://github.com/jaimishsatani/Scalable-URL-Shortener-with-Caching-Analytics"
             />
           </Col>
 
@@ -80,11 +84,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Medical-RAG-Meditron7B"
+              description="The Medical RAG QA App utilizes the Meditron 7B LLM, Qdrant Vector Database, and PubMedBERT Embedding Model to provide accurate medical answers. It retrieves relevant documents through semantic search and generates context-aware responses using advanced language models. This system enhances medical question answering by combining retrieval-based and generative AI techniques."
+              ghLink="https://github.com/jaimishsatani/Medical-RAG-Meditron7B"
             />
           </Col>
         </Row>

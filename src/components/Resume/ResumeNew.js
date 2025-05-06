@@ -6,6 +6,7 @@ import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -20,15 +21,15 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
+          <a
             href={pdf}
+            download="Jaimish_Satani.pdf"
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            rel="noopener noreferrer"
+            style={{ maxWidth: "250px", width: "100%" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+
+          </a>
         </Row>
 
         <Row className="resume">
@@ -38,15 +39,18 @@ function ResumeNew() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
+          <a
             href={pdf}
+            download="Jaimish_Satani.pdf"
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            rel="noopener noreferrer"
+            style={{ maxWidth: "250px", width: "100%" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+            <Button variant="primary" style={{ width: "100%" }}>
+              <AiOutlineDownload />
+              &nbsp;Download CV
+            </Button>
+          </a>
         </Row>
       </Container>
     </div>
